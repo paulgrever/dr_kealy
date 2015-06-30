@@ -3,6 +3,7 @@ $primary-color: white !default;
 @import "materialize";
 
 $primary-text: #2d2d2d;
+$primary-body: #EF2C32;
 
 .navbar a:link {
   color: $primary-text;
@@ -13,4 +14,8 @@ $primary-text: #2d2d2d;
 
 nav {
   height: 70px;
+}
+
+.active {
+  background-color:  $primary-body !important;
 }
