@@ -1,3 +1,21 @@
 @import "materialize/components/color";
-$primary-color: color("blue", "lighten-2") !default;
-@import 'materialize';
+$primary-color: white !default;
+@import "materialize";
+
+$primary-text: #2d2d2d;
+$primary-body: #EF2C32;
+
+.navbar a:link {
+  color: $primary-text;
+}
+.nav-wrapper i {
+  color: $primary-text;
+}
+
+nav {
+  height: 70px;
+}
+
+.active {
+  background-color:  $primary-body !important;
+}
