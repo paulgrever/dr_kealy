@@ -13,6 +13,7 @@ gem "rspec-rails"
 gem "materialize-sass"
 gem "selenium-webdriver"
 gem 'font-awesome-sass'
+gem 'rails_12factor'
 
 
 group :development, :test do
