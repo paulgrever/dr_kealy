@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem "rspec-rails"
 gem "materialize-sass"
 gem "selenium-webdriver"
+gem 'font-awesome-sass'
 
 
 group :development, :test do
